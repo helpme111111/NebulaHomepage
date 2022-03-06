@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel='icon'href='https://cdn.nebula.tokyo/logo'>
+    <meta content='nebula.tokyo'property='og:site_name'>
+    <link rel="stylesheet" href="Sources/bootstrap.min.css" />
+    <script src="Sources/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="Sources/Styles.css" />
+    <title>Nebula - Talking Playspace</title>
+</head>
+
+<body>
+    <!-- Navbar  -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+        <div class="container">
+          <a class="navbar-brand" href="#">Nebula</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="mx-auto"></div>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div class="top-section anim-typewriter">
+    <p>Power Your Amagination.</p>
+    </div>
+    <div class="img-container">Nebula 1.0</div>
+    <div class="bottom-section">
+        <h3>Nebula</h3>
+        <p>
+            Pharagraph 1.
+        </p>
+        <p>
+            Pharagraph 2.
+        </p>
+    </div>
+
+    <!-- Copyrights -->
+    <footer class="footer1">
+        <div class="footerwid">
+            <div class="container text-center">
+                <p class="text-muted mb-0 py-2">© 2022 Nebula All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- End -->
+    <script type="text/javascript">
+      var nav = document.querySelector('nav');
+
+      window.addEventListener('scroll', function () {
+        if (window.pageYOffset > 100) {
+          nav.classList.add('bg-dark', 'shadow');
+        } else {
+          nav.classList.remove('bg-dark', 'shadow');
+        }
+      });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
+    <script src="/Sources/Index.js"></script>
+</body>
+
+</html>
